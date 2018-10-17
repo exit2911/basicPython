@@ -15,7 +15,7 @@ all in triple quotes
 first line - summarize the functionality
 
 for modules - list important classes, functions, exceptions 
-for function - list parameters & explain each per line
+for functions - list parameters & explain each per line
 
 list return values if any
 
