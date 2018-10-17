@@ -1,3 +1,31 @@
+    
+"""
+
+TO DO: storing info about functions, modules, classes, etc.
+
+
+"""
+    
+    
+"""
+best practices
+
+all in triple quotes
+
+first line - summarize the functionality
+
+for modules - list important classes, functions, exceptions 
+for function - list parameters & explain each per line
+
+list return values if any
+
+list exceptions if any
+
+"""
+
+
+
+
 def myFunction(arg1,arg2 = None) #function parameters
 
 """myFunction(arg1,arg2 = None) --> this functions does x
@@ -18,4 +46,3 @@ if __name__ == "__main__":
     
     main()
 
-    
