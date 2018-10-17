@@ -31,7 +31,7 @@ def main():
     # use lambdas
 
 
-    print(list(map(lambda t: math.sqrt(t), x)))
+    print(list(map(lambda t: math.sqrt(t), x))) #map(f(t),x)
     print(list(map(lambda t: t**(1/3),x)))
     
 if __name__ == "__main__":
