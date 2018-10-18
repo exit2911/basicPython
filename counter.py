@@ -1,4 +1,4 @@
-#update,most_common for methods
+#update, most_common, value for methods
 from collections import Counter
 
 
