@@ -12,9 +12,9 @@ class myColor():
 
     # use getattr to dynamically return a value
     def __getattr__(self, attr):
-        if attr == "rgbcolor":
+        if attr == "rgbcolor": #first attribute
             return (self.red, self.green, self.blue)
-        elif attr == "hexcolor":
+        elif attr == "hexcolor": #2nd
             return "#{0:02x}{1:02x}{2:02x}".format(self.red, self.green, self.blue)
         else:
             raise AttributeError
@@ -22,7 +22,7 @@ class myColor():
 
 def main():
     # create an instance of myColor
-    cls1 = myColor()
+    cls1 = myColor() #instanstiate myColor() class as cls1
     # print the value of a computed attribute
     print(cls1.rgbcolor)
     print(cls1.hexcolor)
