@@ -1,5 +1,9 @@
 # Use special methods to compare objects to each other
+"""
 
+TO DO: using lt,gt,le,ge,etc. to compare emp's seniority and levels 
+
+"""
 
 class Employee():
     def __init__(self, fname, lname, level, yrsService):
