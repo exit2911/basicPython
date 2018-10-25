@@ -15,12 +15,9 @@ import logging
 """
 
 
-
-
-
 def main():
     
-    logging.basicConfig(level = logging.DEBUG,filemode='w',filename='output.log',format = '%(asctime)s:%(levelname)s:%(message)s')
+    logging.basicConfig(level = logging.DEBUG,filemode='w',filename='output.log',format = '%(asctime)s:%(levelname)s:%(message)s') #more formats online
     
     logging.debug("message")
     
