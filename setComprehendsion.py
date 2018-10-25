@@ -1,5 +1,3 @@
-# Demonstrate how to use set comprehensions
-
 
 def main():
     # define a list of temperature data points
